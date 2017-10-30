@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1827</width>
+    <height>1030</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>eShop 游戏信息汇总  @哆啦C梦幸福</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>1801</width>
+     <height>961</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>游戏名称</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>中文名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>发售时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>发售状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>公布状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>最新上线</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>试玩版本</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>图标地址</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>最优价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>最优价格转换</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格最优区域</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1340</x>
+     <y>20</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>首页</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1580</x>
+     <y>20</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一页</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1460</x>
+     <y>20</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上一页</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>20</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>尾页</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
