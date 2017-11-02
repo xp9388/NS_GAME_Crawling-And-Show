@@ -14,11 +14,11 @@ import pymysql.cursors
 
 #配置数据库链接信息
 connect = pymysql.Connect(
-    host='45.77.11.232',
-    port=3306,
-    user='root',
-    passwd='Inspur@871',
-    db='NS_Game',
+    host='',
+    port=,
+    user='',
+    passwd='',
+    db='',
     charset='utf8'
 )
 # 获取游标
